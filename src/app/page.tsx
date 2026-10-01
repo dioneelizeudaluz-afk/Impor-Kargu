@@ -21,64 +21,74 @@ export default function HomePage() {
       </header>
 
       <section className="hero">
-        <div className="container hero-grid">
-          <div className="hero-content">
-            <div className="eyebrow">IMPORTAÇÃO PARA MOÇAMBIQUE</div>
-
-            <h1>
-              Da China para Moçambique,
-              <span> sem complicação.</span>
-            </h1>
-
-            <p className="hero-text">
-              Encontra o produto que procuras, envia-nos o link e recebe uma
-              cotação. Tratamos do processo de compra e importação até o teu
-              produto estar disponível em Moçambique.
-            </p>
-
-            <div className="hero-actions">
-              <Link href="/registar" className="primary-button">
-                Começar agora
-              </Link>
-              <Link href="/como-funciona" className="secondary-button">
-                Como funciona
-              </Link>
-            </div>
-
-            <p className="trust-text">
-              Processo simples, acompanhamento da encomenda e pontos de
-              levantamento em Moçambique.
-            </p>
+        <div className="container">
+          <div className="hero-cover">
+            <img
+              src="/impor-kargu-capa.png"
+              alt="Impor Kargu - Da China para Moçambique, sem complicação"
+              className="hero-cover-image"
+            />
           </div>
 
-          <div className="hero-panel" aria-label="Processo da Impor Kargu">
-            <div className="panel-label">COMO FUNCIONA</div>
+          <div className="hero-grid hero-content-section">
+            <div className="hero-content">
+              <div className="eyebrow">IMPORTAÇÃO PARA MOÇAMBIQUE</div>
 
-            <div className="process-step">
-              <div className="step-number">01</div>
-              <div>
-                <h2>Envia o link</h2>
-                <p>Partilha o link do produto que queres importar.</p>
+              <h1>
+                Da China para Moçambique,
+                <span> sem complicação.</span>
+              </h1>
+
+              <p className="hero-text">
+                Encontra o produto que procuras, envia-nos o link e recebe uma
+                cotação. Tratamos do processo de compra e importação até o teu
+                produto estar disponível em Moçambique.
+              </p>
+
+              <div className="hero-actions">
+                <Link href="/registar" className="primary-button">
+                  Começar agora
+                </Link>
+                <Link href="/como-funciona" className="secondary-button">
+                  Como funciona
+                </Link>
               </div>
+
+              <p className="trust-text">
+                Processo simples, acompanhamento da encomenda e pontos de
+                levantamento em Moçambique.
+              </p>
             </div>
 
-            <div className="process-line" />
+            <div className="hero-panel" aria-label="Processo da Impor Kargu">
+              <div className="panel-label">COMO FUNCIONA</div>
 
-            <div className="process-step">
-              <div className="step-number">02</div>
-              <div>
-                <h2>Recebe a cotação</h2>
-                <p>Calculamos os custos e apresentamos o valor total.</p>
+              <div className="process-step">
+                <div className="step-number">01</div>
+                <div>
+                  <h2>Envia o link</h2>
+                  <p>Partilha o link do produto que queres importar.</p>
+                </div>
               </div>
-            </div>
 
-            <div className="process-line" />
+              <div className="process-line" />
 
-            <div className="process-step">
-              <div className="step-number">03</div>
-              <div>
-                <h2>Recebe em Moçambique</h2>
-                <p>Acompanhamos o processo até ao levantamento.</p>
+              <div className="process-step">
+                <div className="step-number">02</div>
+                <div>
+                  <h2>Recebe a cotação</h2>
+                  <p>Calculamos os custos e apresentamos o valor total.</p>
+                </div>
+              </div>
+
+              <div className="process-line" />
+
+              <div className="process-step">
+                <div className="step-number">03</div>
+                <div>
+                  <h2>Recebe em Moçambique</h2>
+                  <p>Acompanhamos o processo até ao levantamento.</p>
+                </div>
               </div>
             </div>
           </div>
